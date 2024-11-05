@@ -4,7 +4,7 @@ def token_replace(s, tokens):
     j = 1
     while i < len(s):
         if s[i] != '$':
-            output.append(s[i])
+            output += s[i]
             i += 1
             j = i + 1
         elif s[j] != '$':
