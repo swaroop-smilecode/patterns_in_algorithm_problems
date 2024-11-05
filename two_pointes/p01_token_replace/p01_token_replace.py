@@ -23,4 +23,4 @@ tokens = {
   '$ANIMAL$': 'dog',
 }
 print(token_replace('Walk the $ANIMAL$ in the $LOCATION$!', tokens))
-# -> 'Walk the dog in the park!'
+# -> 'Walk the dog in the park!' 
